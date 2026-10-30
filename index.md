@@ -2,6 +2,7 @@
 title: Política de Privacidade da Lizian
 lang: pt-BR
 ---
+
 # Política de Privacidade da Lizian
 
 **Versão 1.1** · 30 de outubro de 2026 · em vigor a partir da publicação no endereço abaixo.
@@ -19,8 +20,9 @@ gôndolas das lojas: quais produtos estão lá, onde e com que preço na etiquet
 
 Esta política vale para:
 
-- os aplicativos para iPhone **Lizian Captura** e **Lizian Avaliação** (a versão
-  de testes, distribuída pelo TestFlight), usados pela equipe da loja para
+- os aplicativos para iPhone **Lizian Captura** e **Pulso** (a versão de testes,
+  distribuída pelo TestFlight como "Pulso - Retail Intelligence" e antes
+  chamada Lizian Avaliação), usados pela equipe da loja para
   fotografar as gôndolas;
 - o **painel web da Lizian**, usado por varejistas e fornecedores com conta. Não
   há cadastro aberto: a conta é criada por um operador da Lizian ou pelo convite
@@ -36,7 +38,7 @@ A Lizian existe para medir a gôndola, não para observar pessoas. Por isso:
 - o aplicativo **detecta pessoas no próprio celular e cobre a área delas antes
   de a foto ser guardada**. A imagem original, com a pessoa à mostra, não é
   gravada nem enviada. No Lizian Captura a área é coberta por um retângulo
-  preto; no Lizian Avaliação, por um mosaico que segue o contorno da pessoa;
+  preto; no Pulso, por um mosaico que segue o contorno da pessoa;
 - **não fazemos reconhecimento facial**, não comparamos rostos, não criamos
   identificador de rosto e não contamos, seguimos ou traçamos perfil de clientes
   ou funcionários;
@@ -63,7 +65,7 @@ enviado**: a imagem só passa pela tela e funciona sem conta e sem internet.
 
 | Dado | O que é | Sai do celular? |
 |---|---|---|
-| Foto da gôndola | Imagem da prateleira com as pessoas já cobertas, em JPEG: quadros de até 1920 px no lado maior (no Lizian Avaliação, num modo de teste escolhido pela equipe, até 3840 px) e, em momentos escolhidos pelo app, a foto inteira da câmera (até 12 megapixels, 4032 × 3024). A imagem **não leva localização, data nem dados do aparelho** nos metadados | Sim, para os servidores da Lizian |
+| Foto da gôndola | Imagem da prateleira com as pessoas já cobertas, em JPEG: quadros de até 1920 px no lado maior (no Pulso, num modo de teste escolhido pela equipe, até 3840 px) e, em momentos escolhidos pelo app, a foto inteira da câmera (até 12 megapixels, 4032 × 3024). A imagem **não leva localização, data nem dados do aparelho** nos metadados | Sim, para os servidores da Lizian |
 | Dados da foto | Horário do celular e a diferença dele para o relógio do servidor, o instante da foto dentro da caminhada, o horário em que as pessoas foram cobertas, corredor informado por quem fotografa, código de integridade (hash) e tamanho da imagem, quantas áreas foram cobertas, a versão do filtro e o motivo e o alcance da guarda | Sim |
 | Localização, só para conferir que a foto foi tirada dentro da loja | Com o aplicativo aberto, o celular lê a posição para conferir se está dentro da área da loja. Junto de cada foto vão a posição do momento e a última posição boa, com a precisão e o horário da leitura. **No servidor, a posição é usada só para essa conferência e descartada; guardamos apenas o resultado ("dentro" ou "incerta") e a precisão da leitura, em metros.** Não acompanhamos o seu caminho e não lemos a posição com o aplicativo fechado | Sim, para a conferência; o servidor não guarda a posição |
 | E-mail e senha de quem liga o celular à loja | Quem responde pela loja entra uma vez com o e-mail e a senha da conta Lizian para ligar o celular a ela. A senha só passa pela conexão segura; o celular não guarda a senha nem o e-mail. A sessão é encerrada logo depois; se a rede cair nesse momento, ela vence sozinha em até 7 dias. O celular guarda o nome da loja | Sim, para entrar |
@@ -71,7 +73,7 @@ enviado**: a imagem só passa pela tela e funciona sem conta e sem internet.
 | Dados da caminhada | Início e fim da caminhada, identificadores aleatórios dela criados no celular, leituras do relógio do celular (para acertar os horários), o corredor informado e a lista de corredores percorridos. Ficam ligados ao aparelho e à loja, não a quem fotografou | Sim |
 | Situação da fila de envio | Só contagens e faixas de idade das fotos que esperam envio | Sim |
 | Aviso de falha da proteção | Se a proteção de privacidade não carregar no celular, o app avisa o servidor, com o horário | Sim |
-| Movimento | O sensor de movimento serve para saber, no celular, quando você está caminhando no corredor e ligar a captura nessa hora (no Lizian Avaliação, também entra no registro técnico abaixo) | **Não** |
+| Movimento | O sensor de movimento serve para saber, no celular, quando você está caminhando no corredor e ligar a captura nessa hora (no Pulso, também entra no registro técnico abaixo) | **Não** |
 
 O envio não leva o nome de quem fotografou: o celular é ligado à loja, não à
 pessoa que o usa.
@@ -90,7 +92,7 @@ o nome e o ponto da loja no mapa; e um diário da caminhada (horários,
 corredores e contagens). Tudo isso pode entrar no backup do aparelho (iCloud
 ou computador), se o dono do celular fizer backup.
 
-**Registro técnico do Lizian Avaliação.** Só na versão de testes, o aplicativo
+**Registro técnico do Pulso.** Só na versão de testes, o aplicativo
 guarda também no celular um registro técnico da câmera e do aparelho: movimento
 e posição do celular, exposição e lente de cada quadro, bateria, temperatura e
 memória, os toques na tela (com o ponto tocado) e os códigos de barras lidos.
@@ -149,7 +151,7 @@ a etiqueta mostra. Nenhuma decisão automática é tomada sobre pessoas.
 - **Dentro da sua organização:** cada pessoa vê só o que o papel dela permite. Os dados de uma organização são separados dos de outra no próprio banco de dados.
 - **Fornecedores (indústria):** veem só os dados das lojas e dos produtos a que têm direito por acordo com o varejista. **O fornecedor não vê fotos**, nem quem fotografou.
 - **Atualizações do aplicativo:** o aplicativo consulta o serviço de atualizações da Expo. Em cada consulta, a Expo recebe um identificador aleatório criado na instalação, o endereço IP, a plataforma e a versão do aplicativo.
-- **Distribuição de testes:** quem instala o Lizian Avaliação pelo TestFlight está sujeito também à política da Apple para o TestFlight, que recebe dados de instalação e o retorno que você mandar por ele.
+- **Distribuição de testes:** quem instala o Pulso pelo TestFlight está sujeito também à política da Apple para o TestFlight, que recebe dados de instalação e o retorno que você mandar por ele.
 - **Rede privada:** os servidores da Lizian são acessados por uma rede privada da Tailscale, com conexão criptografada.
 - **Mapa das lojas:** para achar o ponto de uma loja no mapa, o endereço comercial da loja (não dado de pessoa) é consultado nos serviços públicos ViaCEP e OpenStreetMap (Nominatim).
 - **Assistente do painel, quando ligado:** o texto da pergunta vai a um modelo de IA de terceiro pelo serviço OpenRouter, sem foto.
@@ -163,7 +165,7 @@ Não vendemos dados pessoais.
 Hoje o produto roda num **computador dedicado da própria Lizian**, com o disco
 criptografado e acesso só pela rede privada (fase de piloto). As fotos ficam num
 armazenamento de arquivos nesse computador e os demais dados num banco de dados
-no mesmo computador. O Lizian Avaliação envia para um ambiente separado, no
+no mesmo computador. O Pulso envia para um ambiente separado, no
 mesmo computador, com as mesmas regras. Se a hospedagem mudar para um provedor
 de nuvem, esta política será atualizada antes, com o nome do provedor e o país,
 e o aviso da seção 11.
@@ -179,7 +181,7 @@ internacional: confirmado pelo fundador; documento físico com o jurídico da Li
 |---|---|
 | Foto no celular, depois que o servidor confirma o recebimento | Apagada a partir de 5 minutos após a confirmação, na próxima vez que o aplicativo estiver aberto. As leituras de posição que acompanham a foto saem junto. A cópia temporária usada no envio em segundo plano também é apagada |
 | Foto no celular ainda não enviada ou recusada pelo servidor | Fica no celular até ser enviada ou até o aplicativo ser apagado |
-| Registro técnico do Lizian Avaliação (no celular) | Fica no celular até o aplicativo ser apagado |
+| Registro técnico do Pulso (no celular) | Fica no celular até o aplicativo ser apagado |
 | Posição do celular no servidor | Não é guardada: usada na conferência e descartada |
 | Foto da gôndola no servidor | **No máximo 30 dias** a partir do recebimento. Uma rotina automática roda de hora em hora e apaga as fotos que vencem. Se você pedir, apagamos antes (seção 9) |
 | Resumo da fila de envio do aparelho | 7 dias |
